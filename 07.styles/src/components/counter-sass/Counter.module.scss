@@ -1,0 +1,21 @@
+sprimary-
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 300;
+    margin: auto;
+    text-align: center;
+}
+.digitContainer {
+    background: $dark-color;
+    color: #fff;
+    box-shadow: 1px 0px 2px 0px #afafaf;
+}
+.buttonGroupContainer {
+    margin: auto;
+    width: 105px;
+}
+.buttonContainer {
+    width: 50px
+}
