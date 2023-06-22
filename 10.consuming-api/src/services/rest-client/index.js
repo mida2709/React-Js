@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useLocalStorage } from "../hooks/localStorage";
 
-export const prefix = "iwal";
+export const prefix = "mida";
 const useClient = () => {
   const [creds] = useLocalStorage("credential");
   const client = axios.create({
